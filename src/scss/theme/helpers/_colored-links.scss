@@ -3,7 +3,8 @@
     color: RGBA(var(--#{$prefix}gray-#{$color}-rgb), var(--#{$prefix}link-opacity, 1));
     text-decoration-color: RGBA(var(--#{$prefix}gray-#{$color}-rgb), var(--#{$prefix}link-underline-opacity, 1));
 
-    @if $link-shade-percentage != 0 {
+    @if $link-shade-percentage !=0 {
+
       &:hover,
       &:focus {
         color: var(--#{$prefix}gray-link-hover-#{$color});
