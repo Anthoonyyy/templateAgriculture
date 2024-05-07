@@ -32,7 +32,7 @@ body {
 }
 
 #navbar-top {
-    background-color: transparent !important;
+    background-color: #ffb657d8 !important;
 }
 
 #texteImg {
@@ -54,4 +54,11 @@ body {
 
 .nav-link.nav-bar-item:hover {
     color: green !important;
+}
+.active{
+    color: green !important;
+}
+
+.nav-link.nav-bar-item{
+    color: rgba(0, 0, 0, 0.888) !important;
 }
